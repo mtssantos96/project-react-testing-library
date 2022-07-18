@@ -5,6 +5,7 @@
   "engines": {
     "node": "16"
   },
+
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.5",
@@ -18,6 +19,7 @@
     "react-router-dom": "^5.1.2",
     "react-scripts": "^5.0.0"
   },
+
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -27,21 +29,25 @@
     "lint:styles": "npx stylelint '**/*.css'",
     "lint": "eslint --no-inline-config --no-error-on-unmatched-pattern -c .eslintrc.json . --ext .js, .jsx"
   },
+
   "eslintConfig": {
     "extends": "react-app"
   },
+
   "browserslist": {
     "production": [
       ">0.2%",
       "not dead",
       "not op_mini all"
     ],
+  
     "development": [
       "last 1 chrome version",
       "last 1 firefox version",
       "last 1 safari version"
     ]
   },
+
   "jest": {
     "collectCoverageFrom": [
       "**/*.{js,jsx}",
@@ -49,6 +55,7 @@
       "!src/serviceWorker.js"
     ]
   },
+
   "devDependencies": {
     "@babel/preset-react": "^7.12.1",
     "@stryker-mutator/core": "^3.3.1",
