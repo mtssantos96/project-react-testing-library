@@ -60,7 +60,6 @@ test('Existe um ícone de estrela nos pokémons favoritados', () => {
   userEvent.click(addFavorite);
 
   const star = screen.getByAltText('Pikachu is marked as favorite');
-  console.log(star.alt);
   const pokemonSrc = 'http://localhost/star-icon.svg';
   const pokemonAlt = 'Pikachu is marked as favorite';
 
