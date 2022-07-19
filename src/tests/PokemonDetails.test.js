@@ -11,7 +11,7 @@ test('As informações detalhadas do pokémon selecionado são mostradas na tela
   });
   userEvent.click(pokemonDetails);
 
-  const details = screen.getByRole('headingPokémon favoritado?', {
+  const details = screen.getByRole('heading', {
     name: /Pikachu Details/i,
     nivel: 2,
   });
